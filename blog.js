@@ -6,10 +6,14 @@
 // 6: impostato rotta api bacheca
 // 7: creato start e watch in package.json
 // 8: attivato da terminale npm run watch x aggiornare
+// 9: creazione cartalle public con immagini all'interno
 
 const express = require("express");
 const app = express();
 const port = 3000;
+
+//per leggere la cartella public con le img all'interno
+app.use(express.static('public'));
 
 //attivazione rotta api della bacheca
 app.get("/api/bacheca", (req,res) =>{
