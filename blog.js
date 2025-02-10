@@ -3,6 +3,9 @@
 // 3: creazione gitignore
 // 4: importazione di express
 // 5: creazione array oggetti
+// 6: impostato rotta api bacheca
+// 7: creato start e watch in package.json
+// 8: attivato da terminale npm run watch x aggiornare
 
 const express = require("express");
 const app = express();
