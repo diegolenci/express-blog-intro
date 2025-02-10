@@ -15,6 +15,10 @@ const port = 3000;
 //per leggere la cartella public con le img all'interno
 app.use(express.static('public'));
 
+app.get("/", (req,res) => {
+    res.type('html').send(`<img src="localhost:3000/imgs/cracker_barbabietola.jpeg">`)
+})
+
 //attivazione rotta api della bacheca
 app.get("/api/bacheca", (req,res) =>{
     
@@ -24,35 +28,35 @@ app.get("/api/bacheca", (req,res) =>{
             content: `I cracker alla barbabietola sono uno snack stuzzicante da preparare in casa. 
                       Queste sfogliette arricchiranno la tavola con il loro gusto unico e accattivante. 
                       I cracker fatti a mano sono anche un gustoso snack spezza fame, da portare in ufficio o a scuola.`,
-            image: "cracker_barbabietola.avif",
+            image: "imgs/cracker_barbabietola.jpeg",
             tags: ["Antipasti", "Ricette vegetariane", "Ricette al forno"],
         }, {
             title: "pasta alla barbabietola",
             content: `I cracker alla barbabietola sono uno snack stuzzicante da preparare in casa. 
                       Queste sfogliette arricchiranno la tavola con il loro gusto unico e accattivante. 
                       I cracker fatti a mano sono anche un gustoso snack spezza fame, da portare in ufficio o a scuola.`,
-            image: "cracker_barbabietola.avif",
+            image: "imgs/pasta_barbabietola.jpeg",
             tags: ["Antipasti", "Ricette vegetariane", "Ricette al forno"],
         }, {
             title: "Pane fritto dolce",
             content: `I cracker alla barbabietola sono uno snack stuzzicante da preparare in casa. 
                       Queste sfogliette arricchiranno la tavola con il loro gusto unico e accattivante. 
                       I cracker fatti a mano sono anche un gustoso snack spezza fame, da portare in ufficio o a scuola.`,
-            image: "cracker_barbabietola.avif",
+            image: "imgs/pane_fritto_dolce.jpeg",
             tags: ["Antipasti", "Ricette vegetariane", "Ricette al forno"],
         }, {
             title: "Torta paesana",
             content: `I cracker alla barbabietola sono uno snack stuzzicante da preparare in casa. 
                       Queste sfogliette arricchiranno la tavola con il loro gusto unico e accattivante. 
                       I cracker fatti a mano sono anche un gustoso snack spezza fame, da portare in ufficio o a scuola.`,
-            image: "cracker_barbabietola.avif",
+            image: "imgs/torta_paesana.jpeg",
             tags: ["Antipasti", "Ricette vegetariane", "Ricette al forno"],
         }, {
             title: "Ciambellone",
             content: `I cracker alla barbabietola sono uno snack stuzzicante da preparare in casa. 
                       Queste sfogliette arricchiranno la tavola con il loro gusto unico e accattivante. 
                       I cracker fatti a mano sono anche un gustoso snack spezza fame, da portare in ufficio o a scuola.`,
-            image: "cracker_barbabietola.avif",
+            image: "imgs/ciambellone.jpeg",
             tags: ["Antipasti", "Ricette vegetariane", "Ricette al forno"],
         },
         
