@@ -20,28 +20,28 @@ app.get("/api/bacheca", (req,res) =>{
             image: "cracker_barbabietola.avif",
             tags: ["Antipasti", "Ricette vegetariane", "Ricette al forno"],
         }, {
-            title: "Cracker alla barbabietola",
+            title: "pasta alla barbabietola",
             content: `I cracker alla barbabietola sono uno snack stuzzicante da preparare in casa. 
                       Queste sfogliette arricchiranno la tavola con il loro gusto unico e accattivante. 
                       I cracker fatti a mano sono anche un gustoso snack spezza fame, da portare in ufficio o a scuola.`,
             image: "cracker_barbabietola.avif",
             tags: ["Antipasti", "Ricette vegetariane", "Ricette al forno"],
         }, {
-            title: "Cracker alla barbabietola",
+            title: "Pane fritto dolce",
             content: `I cracker alla barbabietola sono uno snack stuzzicante da preparare in casa. 
                       Queste sfogliette arricchiranno la tavola con il loro gusto unico e accattivante. 
                       I cracker fatti a mano sono anche un gustoso snack spezza fame, da portare in ufficio o a scuola.`,
             image: "cracker_barbabietola.avif",
             tags: ["Antipasti", "Ricette vegetariane", "Ricette al forno"],
         }, {
-            title: "Cracker alla barbabietola",
+            title: "Torta paesana",
             content: `I cracker alla barbabietola sono uno snack stuzzicante da preparare in casa. 
                       Queste sfogliette arricchiranno la tavola con il loro gusto unico e accattivante. 
                       I cracker fatti a mano sono anche un gustoso snack spezza fame, da portare in ufficio o a scuola.`,
             image: "cracker_barbabietola.avif",
             tags: ["Antipasti", "Ricette vegetariane", "Ricette al forno"],
         }, {
-            title: "Cracker alla barbabietola",
+            title: "Ciambellone",
             content: `I cracker alla barbabietola sono uno snack stuzzicante da preparare in casa. 
                       Queste sfogliette arricchiranno la tavola con il loro gusto unico e accattivante. 
                       I cracker fatti a mano sono anche un gustoso snack spezza fame, da portare in ufficio o a scuola.`,
